@@ -1,0 +1,1 @@
+python3 teacher.py --arch vgg13 --lr 0.05 --gpu-id 1
