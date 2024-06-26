@@ -23,7 +23,7 @@ def _accuracy(output, target):
         correct = pred.eq(target.view_as(pred)).sum().item()
     return correct
 
-gpu_id = 0
+gpu_id = 6
 os.environ['CUDA_VISIBLE_DEVICES'] = str(gpu_id)
 
 transform_train = transforms.Compose([
